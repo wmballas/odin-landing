@@ -1,0 +1,44 @@
+
+.header {
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-text, .headerlink {
+    size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    color: #3882f6;
+}
+
+.inside-call {
+    background-color: #3882f6;
+}
+
+.infotitle {
+    size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+}
