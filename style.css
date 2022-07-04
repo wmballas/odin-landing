@@ -1,5 +1,5 @@
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto';
     margin: 0;
 }
 
@@ -71,10 +71,7 @@ button {
     padding: 5px 20px;
     border: 0;
     margin-top: 10px;
-}
-
-.inside-call {
-    background-color: #3882f6;
+    font-weight: bold;
 }
 
 .info {
@@ -112,12 +109,59 @@ button {
 
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 0 300px;
 }
 
 .quote-text {
-    size: 36px;
-    font-style: light italic;
+    padding-top: 100px;
+    font-size: 30px;
+    font-weight:lighter;
+    font-style: italic ;
     color: #1f2937;
+    padding-left: 20px;
+}
+
+.quote-source {
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 75px;
+    padding-right: 55px;
+}
+
+.inside-call {
+    background-color: #3882f6;
+    margin: 100px 200px;
+    display: flex;
+    padding: 50px 100px;
+    border-radius: 10px;
+    gap: 150px;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+}
+
+.call-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.signup2 {
+    border: 2px solid #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    justify-content: center;
+    padding: 36px 0;
 }
 
 ul {
